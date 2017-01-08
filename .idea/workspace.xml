@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a18073ec-f613-4bdf-a652-099fd473a8f2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/meowcatch/Projectile.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/Cat.java" afterPath="$PROJECT_DIR$/src/meowcatch/Cat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" afterPath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
     </list>
     <ignored path="RobotAdventure.iws" />
@@ -24,24 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="68">
+              <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Projectile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meowcatch/Projectile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="2085">
+              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -125,10 +117,10 @@
         <option value="$PROJECT_DIR$/src/meowcatch/Projectile.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Monster.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Enemy.java" />
-        <option value="$PROJECT_DIR$/src/meowcatch/Cat.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Background.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/framework/Animation.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
+        <option value="$PROJECT_DIR$/src/meowcatch/Cat.java" />
       </list>
     </option>
   </component>
@@ -774,12 +766,12 @@
       <workItem from="1483913377542" duration="53000" />
       <workItem from="1483913465148" duration="286000" />
       <workItem from="1483913899715" duration="9000" />
-      <workItem from="1483914213306" duration="198000" />
+      <workItem from="1483914213306" duration="322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39171000" />
+    <option name="totallyTimeSpent" value="39295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="127" y="23" width="1153" height="723" extended-state="0" />
@@ -1005,14 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1031,11 +1015,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

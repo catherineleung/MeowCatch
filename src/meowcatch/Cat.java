@@ -30,8 +30,6 @@ public class Cat {
     private int speedX = 0;
     private int speedY = 1;
 
-    private ArrayList<Projectile> projectiles = new ArrayList<Projectile>();
-
     // moves character or scrolls background accordingly
     public void update() {
         if (speedX < 0) {
@@ -150,11 +148,6 @@ public class Cat {
         }
     }
 
-    public void shoot() {
-        Projectile p = new Projectile(centerX + 50, centerY - 25);
-        projectiles.add(p);
-    }
-
     public boolean isDucked() {
         return ducked;
     }
@@ -177,10 +170,6 @@ public class Cat {
 
     public void setMovingLeft(boolean movingLeft) {
         this.movingLeft = movingLeft;
-    }
-
-    public ArrayList getProjectiles() {
-        return projectiles;
     }
 
     public String getDirection() {

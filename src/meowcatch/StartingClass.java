@@ -157,7 +157,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                 currentSprite = runLeftAnim.getImage();
             }
 
-            ArrayList projectiles = cat.getProjectiles();
+            /*ArrayList projectiles = cat.getProjectiles();
             for (int i = 0; i < projectiles.size(); i++) {
                 Projectile p = (Projectile) projectiles.get(i);
                 if (p.isVisible() == true) {
@@ -165,7 +165,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                 } else {
                     projectiles.remove(i);
                 }
-            }
+            }*/
             m1.update();
             m2.update();
             bg1.update();
@@ -265,12 +265,12 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         g.drawImage(background, bg1.getBgX(), bg1.getBgY(), this);
         g.drawImage(background, bg2.getBgX(), bg2.getBgY(), this);
 
-        ArrayList projectiles = cat.getProjectiles();
+        /*ArrayList projectiles = cat.getProjectiles();
         for (int i = 0; i < projectiles.size(); i++) {
             Projectile p = (Projectile) projectiles.get(i);
             g.setColor(Color.YELLOW);
             g.fillRect(p.getX(), p.getY(), 10, 5);
-        }
+        }*/
 
 
         g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
