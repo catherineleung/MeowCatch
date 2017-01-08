@@ -40,7 +40,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
         // assign applet window to frame variable
         Frame frame = (Frame) this.getParent().getParent();
-        frame.setTitle("ROBOT ADVENTURE");
+        frame.setTitle("MeowCatch");
         try {
             // define URL base
             charBase = this.getClass().getResource("/data/character.png");
