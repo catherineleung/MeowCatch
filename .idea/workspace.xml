@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a18073ec-f613-4bdf-a652-099fd473a8f2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/data/down.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/StartingClass.class" afterPath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/StartingClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/sushi.png" afterPath="$PROJECT_DIR$/src/data/sushi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" afterPath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" afterPath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/jumped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/sushi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Background.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Cat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Enemy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/FallingObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Food.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Helpers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Monster.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/StartingClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/framework/Animation$AnimFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/framework/Animation.class" afterPath="" />
     </list>
     <ignored path="RobotAdventure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +52,8 @@
       <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="168" column="43" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#527#542#0" expanded="true" />
@@ -795,12 +814,12 @@
       <workItem from="1483913377542" duration="53000" />
       <workItem from="1483913465148" duration="286000" />
       <workItem from="1483913899715" duration="9000" />
-      <workItem from="1483914213306" duration="7592000" />
+      <workItem from="1483914213306" duration="7935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46565000" />
+    <option name="totallyTimeSpent" value="46908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="23" width="1153" height="723" extended-state="0" />
@@ -1106,8 +1125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="168" column="43" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#527#542#0" expanded="true" />
