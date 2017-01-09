@@ -7,6 +7,8 @@ import java.awt.event.KeyListener;
 import java.awt.Graphics;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
 import meowcatch.framework.Animation;
 
 /**
@@ -18,10 +20,10 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     private Monster m1, m2;
     private ArrayList<FallingObject> sushiList = new ArrayList<FallingObject>();
     private Image image, currentSprite, character, character2, character3, character4, character5, character6,
-            character7, character8, characterDown, characterJumped, characterJumpedLeft, monster, monster2,
+            character7, character8, characterJumped, characterJumpedLeft, monster, monster2,
             monster3, monster4, monster5, sushi, background;
     private URL charBase, charBase2, charBase3, charBase4, charBase5, charBase6,
-            charBase7, charBase8, charDownBase, charJumpedBase, charJumpedLeftBase, monsterBase,
+            charBase7, charBase8, charJumpedBase, charJumpedLeftBase, monsterBase,
             monsterBase2, monsterBase3, monsterBase4, monsterBase5, sushiBase, bgBase;
     private Graphics second;
     private static Background bg1, bg2;
@@ -54,7 +56,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             charBase7 = this.getClass().getResource("/data/leftcharacter3.png");
             charBase8 = this.getClass().getResource("/data/leftcharacter4.png");
 
-            charDownBase = this.getClass().getResource("/data/down.png");
             charJumpedBase = this.getClass().getResource("/data/character3.png");
             charJumpedLeftBase = this.getClass().getResource("/data/leftcharacter3.png");
 
@@ -82,7 +83,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         character7 = getImage(charBase7);
         character8 = getImage(charBase8);
 
-        characterDown = getImage(charDownBase);
         characterJumped = getImage(charJumpedBase);
         characterJumpedLeft = getImage(charJumpedLeftBase);
 
@@ -128,10 +128,12 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         cat = new Cat();
         //m1 = new Monster(340, 350);
         //m2 = new Monster(700, 360);
-        FallingObject sushi1 = new FallingObject();
-        FallingObject sushi2 = new FallingObject();
-        sushiList.add(sushi1);
-        sushiList.add(sushi2);
+
+        // generate 10 random sushis
+        for (int i = 0; i < 10; i++) {
+            FallingObject sushi = new FallingObject();
+            sushiList.add(sushi);
+        }
 
         Thread thread = new Thread(this);
         thread.start();
@@ -169,14 +171,33 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                 currentSprite = runLeftAnim.getImage();
             }
 
-            for (int i = 0; i < sushiList.size(); i++) {
-                FallingObject o = (FallingObject) sushiList.get(i);
+            if (sushiList.size() == 0) {
+                // generate 10 random sushis
+                for (int i = 0; i < 10; i++) {
+                    FallingObject sushi = new FallingObject();
+                    sushiList.add(sushi);
+                }
+            }
+
+            if (sushiList.size() > 0) {
+                FallingObject o = (FallingObject) sushiList.get(0);
+                if (o.isVisible() == true) {
+                    o.update();
+                }
+                else if (o.isVisible() == false) {
+                    sushiList.remove(0);
+                }
+            }
+
+
+            /*for (int i = 0; i < sushiList.size(); i++) {
+                FallingObject o1 = (FallingObject) sushiList.get(i);
                 if (o.isVisible() == true) {
                     o.update();
                 } else {
                     sushiList.remove(i);
                 }
-            }
+            }*/
 
             //m1.update();
             //m2.update();
@@ -204,13 +225,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         switch(e.getKeyCode()) {
             case KeyEvent.VK_UP:
                 System.out.println("Move up");
-                break;
-            case KeyEvent.VK_DOWN:
-                currentSprite = characterDown;
-                if (cat.isJumped() == false) {
-                    cat.setDucked(true);
-                    cat.setSpeedX(0);
-                }
                 break;
             case KeyEvent.VK_LEFT:
                 cat.setDirection("left");
@@ -272,11 +286,20 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         g.drawImage(background, bg1.getBgX(), bg1.getBgY(), this);
         g.drawImage(background, bg2.getBgX(), bg2.getBgY(), this);
 
-
-        for (int i = 0; i < sushiList.size(); i++) {
-            FallingObject o = (FallingObject) sushiList.get(i);
+        if (sushiList.size() > 0) {
+            FallingObject o = (FallingObject) sushiList.get(0);
             g.drawImage(sushi, o.getCenterX() - 50, o.getCenterY() - 50, this);
         }
+
+        /*for (int i = 0; i < sushiList.size(); i++) {
+            FallingObject o = (FallingObject) sushiList.get(i);
+            g.drawImage(sushi, o.getCenterX() - 50, o.getCenterY() - 50, this);
+            try {
+                TimeUnit.MILLISECONDS.sleep(40);
+            } catch (InterruptedException e) {
+                System.out.println("InterruptedException :(");
+            }
+        }*/
 
 
         g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);

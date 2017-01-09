@@ -16,6 +16,9 @@ public class FallingObject {
 
     public void update() {
         centerY += speedY;
+        if (centerY > 680) {
+            visible = false;
+        }
     }
 
     public boolean isVisible() {
