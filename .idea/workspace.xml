@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a18073ec-f613-4bdf-a652-099fd473a8f2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/character4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/jumped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/leftcharacter4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/monster5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/data/sushi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Background.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Enemy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/FallingObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Food.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Helpers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/Monster.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/StartingClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/framework/Animation$AnimFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MeowCatch/meowcatch/framework/Animation.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" afterPath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
     </list>
     <ignored path="RobotAdventure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="168" column="43" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
+            <state relative-caret-position="-4">
+              <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#527#542#0" expanded="true" />
@@ -82,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FallingObject.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FallingObject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="e#590#591#0" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
@@ -136,7 +112,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
+              <folding>
+                <element signature="e#310#311#0" expanded="false" />
+                <element signature="e#336#337#0" expanded="false" />
+                <element signature="e#371#372#0" expanded="false" />
+                <element signature="e#401#402#0" expanded="false" />
+                <element signature="e#428#429#0" expanded="false" />
+                <element signature="e#454#455#0" expanded="false" />
+                <element signature="e#489#490#0" expanded="false" />
+                <element signature="e#519#520#0" expanded="false" />
+                <element signature="e#549#550#0" expanded="false" />
+                <element signature="e#578#579#0" expanded="false" />
+                <element signature="e#619#620#0" expanded="false" />
+                <element signature="e#655#656#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/meowcatch/Cat.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Food.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Helpers.java" />
-        <option value="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
+        <option value="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
       </list>
     </option>
   </component>
@@ -814,12 +803,12 @@
       <workItem from="1483913377542" duration="53000" />
       <workItem from="1483913465148" duration="286000" />
       <workItem from="1483913899715" duration="9000" />
-      <workItem from="1483914213306" duration="7935000" />
+      <workItem from="1483914213306" duration="10518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46908000" />
+    <option name="totallyTimeSpent" value="49491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="23" width="1153" height="723" extended-state="0" />
@@ -941,8 +930,8 @@
         <state relative-caret-position="75">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="e#3793#3794#0" expanded="true" />
-            <element signature="e#3839#3840#0" expanded="true" />
+            <element signature="e#3793#3794#0" expanded="false" />
+            <element signature="e#3839#3840#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -951,7 +940,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -995,8 +997,8 @@
         <state relative-caret-position="75">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="e#3793#3794#0" expanded="true" />
-            <element signature="e#3839#3840#0" expanded="true" />
+            <element signature="e#3793#3794#0" expanded="false" />
+            <element signature="e#3839#3840#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1005,7 +1007,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,7 +1056,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,8 +1110,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="30" />
           <folding>
-            <element signature="e#3793#3794#0" expanded="true" />
-            <element signature="e#3839#3840#0" expanded="true" />
+            <element signature="e#3793#3794#0" expanded="false" />
+            <element signature="e#3839#3840#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1096,10 +1124,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
           <folding>
             <element signature="e#590#591#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
@@ -1119,17 +1158,6 @@
             <element signature="e#1099#1100#0" expanded="true" />
             <element signature="e#1140#1141#0" expanded="true" />
             <element signature="e#1176#1177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="168" column="43" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#542#0" expanded="true" />
           </folding>
         </state>
       </provider>

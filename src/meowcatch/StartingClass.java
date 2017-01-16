@@ -171,7 +171,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                 currentSprite = runLeftAnim.getImage();
             }
 
-            if (sushiList.size() == 0) {
+            if (sushiList.size() == 10 || sushiList.size() == 0) {
                 // generate 10 random sushis
                 for (int i = 0; i < 10; i++) {
                     FallingObject sushi = new FallingObject();
@@ -181,11 +181,23 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
             if (sushiList.size() > 0) {
                 FallingObject o = (FallingObject) sushiList.get(0);
+                FallingObject o1 = (FallingObject) sushiList.get(1);
+                FallingObject o2 = (FallingObject) sushiList.get(2);
                 if (o.isVisible() == true) {
                     o.update();
                 }
-                else if (o.isVisible() == false) {
+                if (o1.isVisible() == true) {
+                    o1.update();
+                }
+                if (o2.isVisible() == true) {
+                    o2.update();
+                }
+                if (o.isVisible() == false) {
                     sushiList.remove(0);
+                } if (o1.isVisible() == false) {
+                    sushiList.remove(1);
+                } if (o2.isVisible() == false) {
+                    sushiList.remove(2);
                 }
             }
 
@@ -289,6 +301,10 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         if (sushiList.size() > 0) {
             FallingObject o = (FallingObject) sushiList.get(0);
             g.drawImage(sushi, o.getCenterX() - 50, o.getCenterY() - 50, this);
+            FallingObject o1 = (FallingObject) sushiList.get(1);
+            g.drawImage(sushi, o1.getCenterX() - 50, o1.getCenterY() - 50, this);
+            FallingObject o2 = (FallingObject) sushiList.get(2);
+            g.drawImage(sushi, o2.getCenterX() - 50, o2.getCenterY() - 50, this);
         }
 
         /*for (int i = 0; i < sushiList.size(); i++) {
@@ -319,6 +335,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     public void animate() {
         runAnim.update(10);
         runLeftAnim.update(10);
-        manim.update(50);
+        manim.update(100);
     }
 }
