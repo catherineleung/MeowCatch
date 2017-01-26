@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a18073ec-f613-4bdf-a652-099fd473a8f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/Cat.java" afterPath="$PROJECT_DIR$/src/meowcatch/Cat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" afterPath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" afterPath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
     </list>
     <ignored path="RobotAdventure.iws" />
@@ -28,11 +30,10 @@
       <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
+            <state relative-caret-position="53">
+              <caret line="312" column="59" selection-start-line="312" selection-start-column="59" selection-end-line="312" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#527#542#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,30 +59,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FallingObject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FallingObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="570">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1269#1270#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#Cat#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,20 +127,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="e#310#311#0" expanded="false" />
-                <element signature="e#336#337#0" expanded="false" />
-                <element signature="e#371#372#0" expanded="false" />
-                <element signature="e#401#402#0" expanded="false" />
-                <element signature="e#428#429#0" expanded="false" />
-                <element signature="e#454#455#0" expanded="false" />
-                <element signature="e#489#490#0" expanded="false" />
-                <element signature="e#519#520#0" expanded="false" />
-                <element signature="e#549#550#0" expanded="false" />
-                <element signature="e#578#579#0" expanded="false" />
-                <element signature="e#619#620#0" expanded="false" />
-                <element signature="e#655#656#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,11 +173,11 @@
         <option value="$PROJECT_DIR$/src/meowcatch/Enemy.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Background.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/framework/Animation.java" />
-        <option value="$PROJECT_DIR$/src/meowcatch/Cat.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Food.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Helpers.java" />
-        <option value="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
+        <option value="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
+        <option value="$PROJECT_DIR$/src/meowcatch/Cat.java" />
       </list>
     </option>
   </component>
@@ -186,7 +188,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
+    <option name="x" value="180" />
     <option name="y" value="23" />
     <option name="width" value="1153" />
     <option name="height" value="723" />
@@ -216,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,8 +276,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -286,7 +288,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaPractice" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -803,15 +805,18 @@
       <workItem from="1483913377542" duration="53000" />
       <workItem from="1483913465148" duration="286000" />
       <workItem from="1483913899715" duration="9000" />
-      <workItem from="1483914213306" duration="10518000" />
+      <workItem from="1483914213306" duration="12715000" />
+      <workItem from="1484718515582" duration="458000" />
+      <workItem from="1484893661184" duration="38000" />
+      <workItem from="1485407630919" duration="1729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49491000" />
+    <option name="totallyTimeSpent" value="53913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="23" width="1153" height="723" extended-state="0" />
+    <frame x="180" y="23" width="1153" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -821,8 +826,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28899083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -890,25 +895,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Projectile.java">
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="184" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Cat#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Projectile.java" />
     <entry file="file://$PROJECT_DIR$/src/meowcatch/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -930,8 +1024,8 @@
         <state relative-caret-position="75">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="e#3793#3794#0" expanded="false" />
-            <element signature="e#3839#3840#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Cat#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,20 +1034,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#310#311#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-            <element signature="e#371#372#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#428#429#0" expanded="false" />
-            <element signature="e#454#455#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,19 +1044,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Projectile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Projectile.java" />
     <entry file="file://$PROJECT_DIR$/src/meowcatch/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -997,8 +1070,8 @@
         <state relative-caret-position="75">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="e#3793#3794#0" expanded="false" />
-            <element signature="e#3839#3840#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Cat#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1007,20 +1080,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#310#311#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-            <element signature="e#371#372#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#428#429#0" expanded="false" />
-            <element signature="e#454#455#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,35 +1104,7 @@
     <entry file="file://$PROJECT_DIR$/src/meowadventures/Background.java" />
     <entry file="file://$PROJECT_DIR$/src/meowadventures/Cat.java" />
     <entry file="file://$PROJECT_DIR$/src/meowadventures/StartingClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Projectile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#310#311#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-            <element signature="e#371#372#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#428#429#0" expanded="false" />
-            <element signature="e#454#455#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Projectile.java" />
     <entry file="file://$PROJECT_DIR$/src/meowcatch/framework/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1097,21 +1129,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Helpers.java">
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="570">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
-            <element signature="e#3793#3794#0" expanded="false" />
-            <element signature="e#3839#3840#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1124,40 +1165,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
+        <state relative-caret-position="53">
+          <caret line="312" column="59" selection-start-line="312" selection-start-column="59" selection-end-line="312" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
           <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Cat#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -4,12 +4,13 @@ package meowcatch;
  * Created by catherineleung on 2017-01-08.
  */
 public class FallingObject {
-    private int centerX, centerY, speedY, points;
+    private int centerX, centerY, speedY, radius, points;
     private boolean visible;
 
     public FallingObject() {
         this.centerX = Helpers.randomWithRange(60, 430);   //(int) Math.floor(Math.random() * 800 - 50);
         this.centerY = 0;
+        this.radius = 25;
         this.speedY = Helpers.randomWithRange(2, 5);
         this.visible = true;
     }
@@ -55,5 +56,9 @@ public class FallingObject {
 
     public void setPoints(int points) {
         this.points = points;
+    }
+
+    public int getRadius() {
+        return radius;
     }
 }

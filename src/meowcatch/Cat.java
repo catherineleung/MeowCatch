@@ -1,5 +1,6 @@
 package meowcatch;
 
+import java.awt.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
@@ -14,6 +15,9 @@ public class Cat {
     // coordinates of character's center
     private int centerX = 30;
     private int centerY = GROUND;
+    private int radius = 25;
+
+    public static Rectangle rectangle = new Rectangle(0, 0, 0, 0);
 
     // true if character is in the air, false if character is on ground
     private boolean jumped = false;
@@ -63,6 +67,8 @@ public class Cat {
             // fix character's centerX at 61
             centerX = 61;
         }
+
+        rectangle.setRect(centerX - 60, centerY - 70, 45, 55);
     }
 
     public void moveRight() {
@@ -179,4 +185,6 @@ public class Cat {
     public void setDirection(String direction) {
         this.direction = direction;
     }
+
+    public int getRadius() { return radius; }
 }

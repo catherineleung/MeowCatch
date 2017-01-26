@@ -153,6 +153,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     public void run() {
         while(true) {
             cat.update();
+            checkForCollision();
             if (cat.isJumped()) {
                 if (cat.getDirection() == "right") {
                     currentSprite = characterJumped;
@@ -225,6 +226,12 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                 e.printStackTrace();
             }
         }
+    }
+
+    private void checkForCollision() {
+        int catX = cat.getCenterX();
+        int catY = cat.getCenterY();
+        int catRadius = cat.getRadius();
     }
 
     @Override
@@ -317,6 +324,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             }
         }*/
 
+        g.drawRect((int)cat.rectangle.getX(), (int) cat.rectangle.getY(), (int) cat.rectangle.getWidth(), (int) cat.rectangle.getHeight());
 
         g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
 
