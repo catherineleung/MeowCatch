@@ -1,11 +1,14 @@
 package meowcatch;
 
+import java.awt.*;
+
 /**
  * Created by catherineleung on 2017-01-08.
  */
 public class FallingObject {
     private int centerX, centerY, speedY, radius, points;
     private boolean visible;
+    private Rectangle r;
 
     public FallingObject() {
         this.centerX = Helpers.randomWithRange(60, 430);   //(int) Math.floor(Math.random() * 800 - 50);
@@ -13,6 +16,7 @@ public class FallingObject {
         this.radius = 25;
         this.speedY = Helpers.randomWithRange(2, 5);
         this.visible = true;
+        this.r = new Rectangle(0, 0, 0, 0);
     }
 
     public void update() {
