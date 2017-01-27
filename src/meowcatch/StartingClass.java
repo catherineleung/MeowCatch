@@ -88,12 +88,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         characterJumped = getImage(charJumpedBase);
         characterJumpedLeft = getImage(charJumpedLeftBase);
 
-        monster = getImage(monsterBase);
-        monster2 = getImage(monsterBase2);
-        monster3 = getImage(monsterBase3);
-        monster4 = getImage(monsterBase4);
-        monster5 = getImage(monsterBase5);
-
         sushi = getImage(sushiBase);
         background = getImage(bgBase);
 
@@ -110,16 +104,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         runLeftAnim.addFrame(character6, 90);
         runLeftAnim.addFrame(character7, 90);
         runLeftAnim.addFrame(character8, 90);
-
-        manim = new Animation();
-        manim.addFrame(monster, 100);
-        manim.addFrame(monster2, 100);
-        manim.addFrame(monster3, 100);
-        manim.addFrame(monster4, 100);
-        manim.addFrame(monster5, 100);
-        manim.addFrame(monster4, 100);
-        manim.addFrame(monster3, 100);
-        manim.addFrame(monster2, 100);
     }
 
     @Override
@@ -348,6 +332,5 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     public void animate() {
         runAnim.update(10);
         runLeftAnim.update(10);
-        manim.update(100);
     }
 }
