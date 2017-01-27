@@ -21,8 +21,20 @@ public class FallingObject {
 
     public void update() {
         centerY += speedY;
+        r.setBounds(centerX, centerY, 30, 30);
         if (centerY > 680) {
             visible = false;
+            r = null;
+        } if (centerY < 680) {
+            checkCollision();
+        }
+    }
+
+    private void checkCollision() {
+        if (r.intersects(StartingClass.cat.rectangle)) {
+            visible = false;
+            // add score here
+            StartingClass.score += 1;
         }
     }
 

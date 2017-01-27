@@ -68,7 +68,7 @@ public class Cat {
             centerX = 61;
         }
 
-        rectangle.setRect(centerX - 60, centerY - 70, 45, 55);
+        rectangle.setRect(centerX - 60, centerY - 70, 60, 60);
     }
 
     public void moveRight() {

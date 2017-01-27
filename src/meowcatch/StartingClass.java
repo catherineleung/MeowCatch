@@ -16,7 +16,7 @@ import meowcatch.framework.Animation;
  */
 public class StartingClass extends Applet implements Runnable, KeyListener {
 
-    private Cat cat;
+    public static Cat cat;
     private Monster m1, m2;
     private ArrayList<FallingObject> sushiList = new ArrayList<FallingObject>();
     private Image image, currentSprite, character, character2, character3, character4, character5, character6,
@@ -28,6 +28,8 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     private Graphics second;
     private static Background bg1, bg2;
     private Animation runAnim, runLeftAnim, manim;
+    public static int score = 0;
+    private Font font = new Font(null, Font.BOLD, 30);
 
     @Override
     public void init() {
@@ -324,12 +326,15 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             }
         }*/
 
-        g.drawRect((int)cat.rectangle.getX(), (int) cat.rectangle.getY(), (int) cat.rectangle.getWidth(), (int) cat.rectangle.getHeight());
+        //g.drawRect((int)cat.rectangle.getX(), (int) cat.rectangle.getY(), (int) cat.rectangle.getWidth(), (int) cat.rectangle.getHeight());
 
         g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
 
         //g.drawImage(manim.getImage(), m1.getCenterX() - 48, m1.getCenterY() - 48, this);
         //g.drawImage(manim.getImage(), m2.getCenterX() - 48, m2.getCenterY() - 48, this);
+        g.setFont(font);
+        g.setColor(Color.WHITE);
+        g.drawString(Integer.toString(score), 200, 200);
     }
 
     public static Background getBg1() {
