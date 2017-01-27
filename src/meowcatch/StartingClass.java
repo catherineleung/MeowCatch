@@ -29,7 +29,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     private static Background bg1, bg2;
     private Animation runAnim, runLeftAnim, manim;
     public static int score = 0;
-    private Font font = new Font(null, Font.BOLD, 30);
+    private Font font = new Font("Verdana", Font.BOLD, 30);
 
     @Override
     public void init() {
@@ -318,7 +318,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         //g.drawImage(manim.getImage(), m2.getCenterX() - 48, m2.getCenterY() - 48, this);
         g.setFont(font);
         g.setColor(Color.WHITE);
-        g.drawString(Integer.toString(score), 200, 200);
+        g.drawString(Integer.toString(score), 240, 200);
     }
 
     public static Background getBg1() {
