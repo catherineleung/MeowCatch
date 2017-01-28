@@ -23,7 +23,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             character7, character8, characterJumped, characterJumpedLeft, monster, monster2,
             monster3, monster4, monster5, sushi, background;
     private URL charBase, charBase2, charBase3, charBase4, charBase5, charBase6,
-            charBase7, charBase8, charJumpedBase, charJumpedLeftBase, monsterBase,
+            charBase7, charBase8, charJumpedBase, charJumpedLeftBase,
             monsterBase2, monsterBase3, monsterBase4, monsterBase5, sushiBase, bgBase;
     private Graphics second;
     private static Background bg1, bg2;
@@ -112,8 +112,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         bg2 = new Background(1024, 0);
 
         cat = new Cat();
-        //m1 = new Monster(340, 350);
-        //m2 = new Monster(700, 360);
 
         // generate 10 random sushis
         for (int i = 0; i < 10; i++) {
@@ -188,18 +186,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                 }
             }
 
-
-            /*for (int i = 0; i < sushiList.size(); i++) {
-                FallingObject o1 = (FallingObject) sushiList.get(i);
-                if (o.isVisible() == true) {
-                    o.update();
-                } else {
-                    sushiList.remove(i);
-                }
-            }*/
-
-            //m1.update();
-            //m2.update();
             bg1.update();
             bg2.update();
 
@@ -299,23 +285,8 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             FallingObject o2 = (FallingObject) sushiList.get(2);
             g.drawImage(sushi, o2.getCenterX() - 50, o2.getCenterY() - 50, this);
         }
-
-        /*for (int i = 0; i < sushiList.size(); i++) {
-            FallingObject o = (FallingObject) sushiList.get(i);
-            g.drawImage(sushi, o.getCenterX() - 50, o.getCenterY() - 50, this);
-            try {
-                TimeUnit.MILLISECONDS.sleep(40);
-            } catch (InterruptedException e) {
-                System.out.println("InterruptedException :(");
-            }
-        }*/
-
-        //g.drawRect((int)cat.rectangle.getX(), (int) cat.rectangle.getY(), (int) cat.rectangle.getWidth(), (int) cat.rectangle.getHeight());
-
         g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
 
-        //g.drawImage(manim.getImage(), m1.getCenterX() - 48, m1.getCenterY() - 48, this);
-        //g.drawImage(manim.getImage(), m2.getCenterX() - 48, m2.getCenterY() - 48, this);
         g.setFont(font);
         g.setColor(Color.WHITE);
         g.drawString(Integer.toString(score), 240, 200);
