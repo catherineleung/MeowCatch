@@ -7,7 +7,6 @@ import java.awt.event.KeyListener;
 import java.awt.Graphics;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
 
 import meowcatch.framework.Animation;
 
@@ -17,17 +16,14 @@ import meowcatch.framework.Animation;
 public class StartingClass extends Applet implements Runnable, KeyListener {
 
     public static Cat cat;
-    private Monster m1, m2;
     private ArrayList<FallingObject> sushiList = new ArrayList<FallingObject>();
     private Image image, currentSprite, character, character2, character3, character4, character5, character6,
-            character7, character8, characterJumped, characterJumpedLeft, monster, monster2,
-            monster3, monster4, monster5, sushi, background;
+            character7, character8, characterJumped, characterJumpedLeft, sushi, background;
     private URL charBase, charBase2, charBase3, charBase4, charBase5, charBase6,
-            charBase7, charBase8, charJumpedBase, charJumpedLeftBase,
-            monsterBase2, monsterBase3, monsterBase4, monsterBase5, sushiBase, bgBase;
+            charBase7, charBase8, charJumpedBase, charJumpedLeftBase, sushiBase, bgBase;
     private Graphics second;
     private static Background bg1, bg2;
-    private Animation runAnim, runLeftAnim, manim;
+    private Animation runAnim, runLeftAnim;
     public static int score = 0;
     private Font font = new Font("Verdana", Font.BOLD, 30);
 
@@ -60,12 +56,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
             charJumpedBase = this.getClass().getResource("/data/character3.png");
             charJumpedLeftBase = this.getClass().getResource("/data/leftcharacter3.png");
-
-            monsterBase = this.getClass().getResource("/data/monster.png");
-            monsterBase2 = this.getClass().getResource("/data/monster2.png");
-            monsterBase3 = this.getClass().getResource("/data/monster3.png");
-            monsterBase4 = this.getClass().getResource("/data/monster4.png");
-            monsterBase5 = this.getClass().getResource("/data/monster5.png");
 
             sushiBase = this.getClass().getResource("/data/sushi.png");
 
