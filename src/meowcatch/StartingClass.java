@@ -25,6 +25,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     private static Background bg1, bg2;
     private Animation runAnim, runLeftAnim;
     public static int score = 0;
+    public static int missed = 0;
     private Font font = new Font("Verdana", Font.BOLD, 30);
 
     @Override
@@ -280,6 +281,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         g.setFont(font);
         g.setColor(Color.WHITE);
         g.drawString(Integer.toString(score), 240, 200);
+        g.drawString(Integer.toString(missed), 300, 300);
     }
 
     public static Background getBg1() {

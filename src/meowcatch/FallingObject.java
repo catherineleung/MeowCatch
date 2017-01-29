@@ -6,12 +6,12 @@ import java.awt.*;
  * Created by catherineleung on 2017-01-08.
  */
 public class FallingObject {
-    private int centerX, centerY, speedY, radius, points;
+    private int centerX, centerY, speedY, radius, points, missed;
     private boolean visible;
     private Rectangle r;
 
     public FallingObject() {
-        this.centerX = Helpers.randomWithRange(60, 430);   //(int) Math.floor(Math.random() * 800 - 50);
+        this.centerX = Helpers.randomWithRange(60, 430);
         this.centerY = 0;
         this.radius = 25;
         this.speedY = Helpers.randomWithRange(2, 5);
@@ -24,6 +24,7 @@ public class FallingObject {
         r.setBounds(centerX, centerY, 30, 30);
         if (centerY > 680) {
             visible = false;
+            StartingClass.missed += 1;
             r = null;
         } if (centerY < 680) {
             checkCollision();
