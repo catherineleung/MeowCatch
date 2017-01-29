@@ -17,10 +17,11 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
     public static Cat cat;
     private ArrayList<FallingObject> sushiList = new ArrayList<FallingObject>();
+    private ArrayList<FallingObject> milkList = new ArrayList<FallingObject>();
     private Image image, currentSprite, character, character2, character3, character4, character5, character6,
-            character7, character8, characterJumped, characterJumpedLeft, sushi, background;
+            character7, character8, characterJumped, characterJumpedLeft, sushi, milk, background;
     private URL charBase, charBase2, charBase3, charBase4, charBase5, charBase6,
-            charBase7, charBase8, charJumpedBase, charJumpedLeftBase, sushiBase, bgBase;
+            charBase7, charBase8, charJumpedBase, charJumpedLeftBase, sushiBase, milkBase, bgBase;
     private Graphics second;
     private static Background bg1, bg2;
     private Animation runAnim, runLeftAnim;
@@ -59,6 +60,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             charJumpedLeftBase = this.getClass().getResource("/data/leftcharacter3.png");
 
             sushiBase = this.getClass().getResource("/data/sushi.png");
+            milkBase = this.getClass().getResource("/data/milk.png");
 
             bgBase = this.getClass().getResource("/data/background.png");
         } catch (Exception e) {
@@ -80,6 +82,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         characterJumpedLeft = getImage(charJumpedLeftBase);
 
         sushi = getImage(sushiBase);
+        milk = getImage(milkBase);
         background = getImage(bgBase);
 
         // run right
@@ -108,6 +111,10 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         for (int i = 0; i < 10; i++) {
             FallingObject sushi = new FallingObject();
             sushiList.add(sushi);
+        }
+        for (int i = 0; i < 2; i++) {
+            FallingObject milk = new FallingObject();
+            milkList.add(milk);
         }
 
         Thread thread = new Thread(this);
@@ -155,6 +162,14 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                 }
             }
 
+            if (milkList.size() == 2 || sushiList.size() == 0) {
+                // generate 2 random milks
+                for (int i = 0; i < 2; i++) {
+                    FallingObject milk = new FallingObject();
+                    milkList.add(milk);
+                }
+            }
+
             if (sushiList.size() > 0) {
                 FallingObject o = (FallingObject) sushiList.get(0);
                 FallingObject o1 = (FallingObject) sushiList.get(1);
@@ -174,6 +189,15 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                     sushiList.remove(1);
                 } if (o2.isVisible() == false) {
                     sushiList.remove(2);
+                }
+            }
+
+            if (milkList.size() > 0) {
+                FallingObject o = (FallingObject) milkList.get(0);
+                if (o.isVisible() == true) {
+                    o.update();
+                } if (o.isVisible() == false) {
+                    milkList.remove(0);
                 }
             }
 
@@ -276,6 +300,12 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             FallingObject o2 = (FallingObject) sushiList.get(2);
             g.drawImage(sushi, o2.getCenterX() - 50, o2.getCenterY() - 50, this);
         }
+
+        if (milkList.size() > 0) {
+            FallingObject o = (FallingObject) milkList.get(0);
+            g.drawImage(milk, o.getCenterX() - 50, o.getCenterY() - 50, this);
+        }
+
         g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
 
         g.setFont(font);

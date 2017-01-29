@@ -6,7 +6,7 @@ import java.awt.*;
  * Created by catherineleung on 2017-01-08.
  */
 public class FallingObject {
-    private int centerX, centerY, speedY, radius, points, missed;
+    private int centerX, centerY, speedY, radius, points;
     private boolean visible;
     private Rectangle r;
 
