@@ -109,11 +109,11 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
         // generate 10 random sushis
         for (int i = 0; i < 10; i++) {
-            FallingObject sushi = new FallingObject();
+            FallingObject sushi = new FallingObject("sushi");
             sushiList.add(sushi);
         }
         for (int i = 0; i < 2; i++) {
-            FallingObject milk = new FallingObject();
+            FallingObject milk = new FallingObject("milk");
             milkList.add(milk);
         }
 
@@ -157,7 +157,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             if (sushiList.size() == 10 || sushiList.size() == 0) {
                 // generate 10 random sushis
                 for (int i = 0; i < 10; i++) {
-                    FallingObject sushi = new FallingObject();
+                    FallingObject sushi = new FallingObject("sushi");
                     sushiList.add(sushi);
                 }
             }
@@ -165,7 +165,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             if (milkList.size() == 2 || sushiList.size() == 0) {
                 // generate 2 random milks
                 for (int i = 0; i < 2; i++) {
-                    FallingObject milk = new FallingObject();
+                    FallingObject milk = new FallingObject("milk");
                     milkList.add(milk);
                 }
             }

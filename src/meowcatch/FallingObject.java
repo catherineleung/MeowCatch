@@ -7,15 +7,17 @@ import java.awt.*;
  */
 public class FallingObject {
     private int centerX, centerY, speedY, radius, points;
+    private String type;
     private boolean visible;
     private Rectangle r;
 
-    public FallingObject() {
+    public FallingObject(String type) {
         this.centerX = Helpers.randomWithRange(60, 430);
         this.centerY = 0;
         this.radius = 25;
         this.speedY = Helpers.randomWithRange(2, 5);
         this.visible = true;
+        this.type = type;
         this.r = new Rectangle(0, 0, 0, 0);
     }
 
@@ -24,7 +26,8 @@ public class FallingObject {
         r.setBounds(centerX, centerY, 30, 30);
         if (centerY > 680) {
             visible = false;
-            StartingClass.missed += 1;
+            if (this.type == "sushi")
+                StartingClass.missed += 1;
             r = null;
         } if (centerY < 680) {
             checkCollision();
@@ -34,8 +37,11 @@ public class FallingObject {
     private void checkCollision() {
         if (r.intersects(StartingClass.cat.rectangle)) {
             visible = false;
-            // add score here
-            StartingClass.score += 1;
+            // calculate score here
+            if (this.type == "sushi")
+                StartingClass.score += 10;
+            else if (this.type == "milk")
+                StartingClass.score -= 5;
         }
     }
 
