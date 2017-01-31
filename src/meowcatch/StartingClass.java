@@ -19,9 +19,9 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     private ArrayList<FallingObject> sushiList = new ArrayList<FallingObject>();
     private ArrayList<FallingObject> milkList = new ArrayList<FallingObject>();
     private Image image, currentSprite, character, character2, character3, character4, character5, character6,
-            character7, character8, characterJumped, characterJumpedLeft, sushi, milk, background;
+            character7, character8, characterJumped, characterJumpedLeft, sushi, milk, heart, background;
     private URL charBase, charBase2, charBase3, charBase4, charBase5, charBase6,
-            charBase7, charBase8, charJumpedBase, charJumpedLeftBase, sushiBase, milkBase, bgBase;
+            charBase7, charBase8, charJumpedBase, charJumpedLeftBase, sushiBase, milkBase, heartBase, bgBase;
     private Graphics second;
     private static Background bg1, bg2;
     private Animation runAnim, runLeftAnim;
@@ -61,6 +61,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
             sushiBase = this.getClass().getResource("/data/sushi.png");
             milkBase = this.getClass().getResource("/data/milk.png");
+            heartBase = this.getClass().getResource("/data/heart.gif");
 
             bgBase = this.getClass().getResource("/data/background.png");
         } catch (Exception e) {
@@ -84,6 +85,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         sushi = getImage(sushiBase);
         milk = getImage(milkBase);
         background = getImage(bgBase);
+        heart = getImage(heartBase);
 
         // run right
         runAnim = new Animation();
@@ -291,6 +293,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     public void paint(Graphics g) {
         g.drawImage(background, bg1.getBgX(), bg1.getBgY(), this);
         g.drawImage(background, bg2.getBgX(), bg2.getBgY(), this);
+        g.drawImage(heart, 50, 50, this);
 
         if (sushiList.size() > 0) {
             FallingObject o = (FallingObject) sushiList.get(0);

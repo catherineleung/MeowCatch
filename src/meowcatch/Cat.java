@@ -17,6 +17,8 @@ public class Cat {
     private int centerY = GROUND;
     private int radius = 25;
 
+    public static int lives = 9;
+
     public static Rectangle rectangle = new Rectangle(0, 0, 0, 0);
 
     // true if character is in the air, false if character is on ground

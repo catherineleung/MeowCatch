@@ -40,8 +40,14 @@ public class FallingObject {
             // calculate score here
             if (this.type == "sushi")
                 StartingClass.score += 10;
-            else if (this.type == "milk")
+            else if (this.type == "milk") {
                 StartingClass.score -= 5;
+                // decrement number of cat's lives
+                Cat.lives -= 1;
+                if (Cat.lives == 0) {
+                    System.out.println("you ded son");
+                }
+            }
         }
     }
 
