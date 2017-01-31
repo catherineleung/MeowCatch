@@ -34,6 +34,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     public static int score = 0;
     public static int missed = 0;
     private Font font = new Font("Verdana", Font.BOLD, 30);
+    private Font livesFont = new Font("Verdana", Font.BOLD, 15);
 
     @Override
     public void init() {
@@ -305,7 +306,7 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
         if (state == GameState.Running) {
             g.drawImage(background, bg1.getBgX(), bg1.getBgY(), this);
             g.drawImage(background, bg2.getBgX(), bg2.getBgY(), this);
-            g.drawImage(heart, 50, 50, this);
+            g.drawImage(heart, 15, 15, this);
 
             if (sushiList.size() > 0) {
                 FallingObject o = (FallingObject) sushiList.get(0);
@@ -323,8 +324,10 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
             g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
 
-            g.setFont(font);
+            g.setFont(livesFont);
             g.setColor(Color.WHITE);
+            g.drawString(Integer.toString(cat.lives), 35, 28);
+            g.setFont(font);
             g.drawString(Integer.toString(score), 240, 200);
             g.drawString(Integer.toString(missed), 300, 300);
         }
