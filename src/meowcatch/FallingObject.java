@@ -2,6 +2,8 @@ package meowcatch;
 
 import java.awt.*;
 
+import static meowcatch.StartingClass.cat;
+
 /**
  * Created by catherineleung on 2017-01-08.
  */
@@ -35,7 +37,7 @@ public class FallingObject {
     }
 
     private void checkCollision() {
-        if (r.intersects(StartingClass.cat.rectangle)) {
+        if (r.intersects(cat.rectangle)) {
             visible = false;
             // calculate score here
             if (this.type == "sushi")
@@ -46,6 +48,7 @@ public class FallingObject {
                 Cat.lives -= 1;
                 if (Cat.lives == 0) {
                     System.out.println("you ded son");
+                    Cat.alive = false;
                 }
             }
         }

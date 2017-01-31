@@ -18,6 +18,7 @@ public class Cat {
     private int radius = 25;
 
     public static int lives = 9;
+    public static boolean alive = true;
 
     public static Rectangle rectangle = new Rectangle(0, 0, 0, 0);
 

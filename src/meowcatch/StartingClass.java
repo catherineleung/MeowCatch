@@ -15,6 +15,12 @@ import meowcatch.framework.Animation;
  */
 public class StartingClass extends Applet implements Runnable, KeyListener {
 
+    enum GameState {
+        Running, Dead
+    }
+
+    GameState state = GameState.Running;
+
     public static Cat cat;
     private ArrayList<FallingObject> sushiList = new ArrayList<FallingObject>();
     private ArrayList<FallingObject> milkList = new ArrayList<FallingObject>();
@@ -135,86 +141,91 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
     @Override
     public void run() {
-        while(true) {
-            cat.update();
-            checkForCollision();
-            if (cat.isJumped()) {
-                if (cat.getDirection() == "right") {
-                    currentSprite = characterJumped;
-                } else {
-                    currentSprite = characterJumpedLeft;
+        if (state == GameState.Running) {
+            while(true) {
+                cat.update();
+                checkForCollision();
+                if (cat.isJumped()) {
+                    if (cat.getDirection() == "right") {
+                        currentSprite = characterJumped;
+                    } else {
+                        currentSprite = characterJumpedLeft;
+                    }
+                } else if(cat.isJumped() == false && cat.isDucked() == false && cat.isMovingRight() == false && cat.isMovingLeft() == false) {
+                    if (cat.getDirection() == "right") {
+                        currentSprite = character;
+                    } else {
+                        currentSprite = character5;
+                    }
+                } else if(cat.isMovingRight() == true && cat.isMovingLeft() == false) {
+                    currentSprite = runAnim.getImage();
+                } else if(cat.isMovingRight() == false && cat.isMovingLeft() == true) {
+                    currentSprite = runLeftAnim.getImage();
                 }
-            } else if(cat.isJumped() == false && cat.isDucked() == false && cat.isMovingRight() == false && cat.isMovingLeft() == false) {
-                if (cat.getDirection() == "right") {
-                    currentSprite = character;
-                } else {
-                    currentSprite = character5;
-                }
-            } else if(cat.isMovingRight() == true && cat.isMovingLeft() == false) {
-                currentSprite = runAnim.getImage();
-            } else if(cat.isMovingRight() == false && cat.isMovingLeft() == true) {
-                currentSprite = runLeftAnim.getImage();
-            }
 
-            if (sushiList.size() == 10 || sushiList.size() == 0) {
-                // generate 10 random sushis
-                for (int i = 0; i < 10; i++) {
-                    FallingObject sushi = new FallingObject("sushi");
-                    sushiList.add(sushi);
+                if (sushiList.size() == 10 || sushiList.size() == 0) {
+                    // generate 10 random sushis
+                    for (int i = 0; i < 10; i++) {
+                        FallingObject sushi = new FallingObject("sushi");
+                        sushiList.add(sushi);
+                    }
                 }
-            }
 
-            if (milkList.size() == 2 || sushiList.size() == 0) {
-                // generate 2 random milks
-                for (int i = 0; i < 2; i++) {
-                    FallingObject milk = new FallingObject("milk");
-                    milkList.add(milk);
+                if (milkList.size() == 2 || sushiList.size() == 0) {
+                    // generate 2 random milks
+                    for (int i = 0; i < 2; i++) {
+                        FallingObject milk = new FallingObject("milk");
+                        milkList.add(milk);
+                    }
                 }
-            }
 
-            if (sushiList.size() > 0) {
-                FallingObject o = (FallingObject) sushiList.get(0);
-                FallingObject o1 = (FallingObject) sushiList.get(1);
-                FallingObject o2 = (FallingObject) sushiList.get(2);
-                if (o.isVisible() == true) {
-                    o.update();
+                if (sushiList.size() > 0) {
+                    FallingObject o = (FallingObject) sushiList.get(0);
+                    FallingObject o1 = (FallingObject) sushiList.get(1);
+                    FallingObject o2 = (FallingObject) sushiList.get(2);
+                    if (o.isVisible() == true) {
+                        o.update();
+                    }
+                    if (o1.isVisible() == true) {
+                        o1.update();
+                    }
+                    if (o2.isVisible() == true) {
+                        o2.update();
+                    }
+                    if (o.isVisible() == false) {
+                        sushiList.remove(0);
+                    } if (o1.isVisible() == false) {
+                        sushiList.remove(1);
+                    } if (o2.isVisible() == false) {
+                        sushiList.remove(2);
+                    }
                 }
-                if (o1.isVisible() == true) {
-                    o1.update();
-                }
-                if (o2.isVisible() == true) {
-                    o2.update();
-                }
-                if (o.isVisible() == false) {
-                    sushiList.remove(0);
-                } if (o1.isVisible() == false) {
-                    sushiList.remove(1);
-                } if (o2.isVisible() == false) {
-                    sushiList.remove(2);
-                }
-            }
 
-            if (milkList.size() > 0) {
-                FallingObject o = (FallingObject) milkList.get(0);
-                if (o.isVisible() == true) {
-                    o.update();
-                } if (o.isVisible() == false) {
-                    milkList.remove(0);
+                if (milkList.size() > 0) {
+                    FallingObject o = (FallingObject) milkList.get(0);
+                    if (o.isVisible() == true) {
+                        o.update();
+                    } if (o.isVisible() == false) {
+                        milkList.remove(0);
+                    }
                 }
-            }
 
-            bg1.update();
-            bg2.update();
+                bg1.update();
+                bg2.update();
 
-            animate();
-            // calls paint method every 17 ms
-            repaint();
-            try {
-                Thread.sleep(17);
-            } catch(InterruptedException e) {
-                e.printStackTrace();
+                animate();
+                // calls paint method every 17 ms
+                repaint();
+                try {
+                    Thread.sleep(17);
+                } catch(InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if (cat.alive == false)
+                    state = GameState.Dead;
             }
         }
+
     }
 
     private void checkForCollision() {
@@ -291,30 +302,38 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
     // draw graphics to screen
     @Override
     public void paint(Graphics g) {
-        g.drawImage(background, bg1.getBgX(), bg1.getBgY(), this);
-        g.drawImage(background, bg2.getBgX(), bg2.getBgY(), this);
-        g.drawImage(heart, 50, 50, this);
+        if (state == GameState.Running) {
+            g.drawImage(background, bg1.getBgX(), bg1.getBgY(), this);
+            g.drawImage(background, bg2.getBgX(), bg2.getBgY(), this);
+            g.drawImage(heart, 50, 50, this);
 
-        if (sushiList.size() > 0) {
-            FallingObject o = (FallingObject) sushiList.get(0);
-            g.drawImage(sushi, o.getCenterX() - 50, o.getCenterY() - 50, this);
-            FallingObject o1 = (FallingObject) sushiList.get(1);
-            g.drawImage(sushi, o1.getCenterX() - 50, o1.getCenterY() - 50, this);
-            FallingObject o2 = (FallingObject) sushiList.get(2);
-            g.drawImage(sushi, o2.getCenterX() - 50, o2.getCenterY() - 50, this);
+            if (sushiList.size() > 0) {
+                FallingObject o = (FallingObject) sushiList.get(0);
+                g.drawImage(sushi, o.getCenterX() - 50, o.getCenterY() - 50, this);
+                FallingObject o1 = (FallingObject) sushiList.get(1);
+                g.drawImage(sushi, o1.getCenterX() - 50, o1.getCenterY() - 50, this);
+                FallingObject o2 = (FallingObject) sushiList.get(2);
+                g.drawImage(sushi, o2.getCenterX() - 50, o2.getCenterY() - 50, this);
+            }
+
+            if (milkList.size() > 0) {
+                FallingObject o = (FallingObject) milkList.get(0);
+                g.drawImage(milk, o.getCenterX() - 50, o.getCenterY() - 50, this);
+            }
+
+            g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
+
+            g.setFont(font);
+            g.setColor(Color.WHITE);
+            g.drawString(Integer.toString(score), 240, 200);
+            g.drawString(Integer.toString(missed), 300, 300);
         }
-
-        if (milkList.size() > 0) {
-            FallingObject o = (FallingObject) milkList.get(0);
-            g.drawImage(milk, o.getCenterX() - 50, o.getCenterY() - 50, this);
+        else if (state == GameState.Dead) {
+            g.setColor(Color.BLACK);
+            g.fillRect(0, 0, 800, 480);
+            g.setColor(Color.WHITE);
+            g.drawString("u ded", 360, 240);
         }
-
-        g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
-
-        g.setFont(font);
-        g.setColor(Color.WHITE);
-        g.drawString(Integer.toString(score), 240, 200);
-        g.drawString(Integer.toString(missed), 300, 300);
     }
 
     public static Background getBg1() {
