@@ -28,8 +28,6 @@ public class FallingObject {
         r.setBounds(centerX, centerY, 30, 30);
         if (centerY > 680) {
             visible = false;
-            if (this.type == "sushi")
-                StartingClass.missed += 1;
             r = null;
         } if (centerY < 680) {
             checkCollision();

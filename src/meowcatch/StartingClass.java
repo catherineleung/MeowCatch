@@ -204,10 +204,15 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
                 if (milkList.size() > 0) {
                     FallingObject o = (FallingObject) milkList.get(0);
+                    FallingObject o1 = (FallingObject) milkList.get(1);
                     if (o.isVisible() == true) {
                         o.update();
                     } if (o.isVisible() == false) {
                         milkList.remove(0);
+                    } if (o1.isVisible() == true) {
+                        o1.update();
+                    } if (o1.isVisible() == false) {
+                        milkList.remove(1);
                     }
                 }
 
@@ -319,7 +324,9 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
             if (milkList.size() > 0) {
                 FallingObject o = (FallingObject) milkList.get(0);
+                FallingObject o1 = (FallingObject) milkList.get(1);
                 g.drawImage(milk, o.getCenterX() - 50, o.getCenterY() - 50, this);
+                g.drawImage(milk, o1.getCenterX() - 50, o1.getCenterY() - 50, this);
             }
 
             g.drawImage(currentSprite, cat.getCenterX() - 61, cat.getCenterY() - 63, this);
@@ -329,7 +336,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
             g.drawString(Integer.toString(cat.lives), 35, 28);
             g.setFont(font);
             g.drawString(Integer.toString(score), 240, 200);
-            g.drawString(Integer.toString(missed), 300, 300);
         }
         else if (state == GameState.Dead) {
             g.setColor(Color.BLACK);
