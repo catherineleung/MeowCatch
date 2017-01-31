@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a18073ec-f613-4bdf-a652-099fd473a8f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/Cat.java" afterPath="$PROJECT_DIR$/src/meowcatch/Cat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" afterPath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" afterPath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
     </list>
     <ignored path="RobotAdventure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Cat#0" expanded="false" />
@@ -788,12 +786,12 @@
       <workItem from="1483914213306" duration="12715000" />
       <workItem from="1484718515582" duration="458000" />
       <workItem from="1484893661184" duration="38000" />
-      <workItem from="1485407630919" duration="13642000" />
+      <workItem from="1485407630919" duration="13841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65826000" />
+    <option name="totallyTimeSpent" value="66025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="23" width="1153" height="723" extended-state="0" />
@@ -1144,7 +1142,7 @@
     <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Cat#0" expanded="false" />
