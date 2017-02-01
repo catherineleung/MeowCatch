@@ -1,8 +1,6 @@
 package meowcatch;
 
 import java.awt.*;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 
 /**
  * Created by catherineleung on 2017-01-05.
