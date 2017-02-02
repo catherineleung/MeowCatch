@@ -60,35 +60,7 @@ public class FallingObject {
         return centerX;
     }
 
-    public void setCenterX(int centerX) {
-        this.centerX = centerX;
-    }
-
     public int getCenterY() {
         return centerY;
-    }
-
-    public void setCenterY(int centerY) {
-        this.centerY = centerY;
-    }
-
-    public int getSpeedY() {
-        return speedY;
-    }
-
-    public void setSpeedY(int speedY) {
-        this.speedY = speedY;
-    }
-
-    public int getPoints() {
-        return points;
-    }
-
-    public void setPoints(int points) {
-        this.points = points;
-    }
-
-    public int getRadius() {
-        return radius;
     }
 }
