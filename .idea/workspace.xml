@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a18073ec-f613-4bdf-a652-099fd473a8f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" afterPath="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/Background.java" afterPath="$PROJECT_DIR$/src/meowcatch/Background.java" />
     </list>
     <ignored path="RobotAdventure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1924">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="56">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#Cat#0" expanded="false" />
               </folding>
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Background.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Background.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -121,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/meowcatch/Projectile.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Monster.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Enemy.java" />
-        <option value="$PROJECT_DIR$/src/meowcatch/Background.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/framework/Animation.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Food.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Helpers.java" />
@@ -130,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Cat.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
+        <option value="$PROJECT_DIR$/src/meowcatch/Background.java" />
       </list>
     </option>
   </component>
@@ -783,12 +783,12 @@
       <workItem from="1483914213306" duration="12715000" />
       <workItem from="1484718515582" duration="458000" />
       <workItem from="1484893661184" duration="38000" />
-      <workItem from="1485407630919" duration="15425000" />
+      <workItem from="1485407630919" duration="15558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67609000" />
+    <option name="totallyTimeSpent" value="67742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="103" width="1153" height="723" extended-state="0" />
@@ -1113,6 +1113,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1123,19 +1131,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1924">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="56">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Cat#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
