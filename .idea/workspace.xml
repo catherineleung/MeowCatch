@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a18073ec-f613-4bdf-a652-099fd473a8f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/Background.java" afterPath="$PROJECT_DIR$/src/meowcatch/Background.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" afterPath="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
     </list>
     <ignored path="RobotAdventure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StartingClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4834">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="229" column="9" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
       <file leaf-file-name="FallingObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1476#1477#0" expanded="true" />
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meowcatch/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
@@ -126,10 +126,10 @@
         <option value="$PROJECT_DIR$/src/meowcatch/Helpers.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/sun/awt/image/URLImageSource.class" />
         <option value="$PROJECT_DIR$/src/meowcatch/framework/Milk.java" />
-        <option value="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Cat.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/FallingObject.java" />
         <option value="$PROJECT_DIR$/src/meowcatch/Background.java" />
+        <option value="$PROJECT_DIR$/src/meowcatch/StartingClass.java" />
       </list>
     </option>
   </component>
@@ -140,8 +140,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="103" />
+    <option name="x" value="60" />
+    <option name="y" value="23" />
     <option name="width" value="1153" />
     <option name="height" value="723" />
   </component>
@@ -783,15 +783,15 @@
       <workItem from="1483914213306" duration="12715000" />
       <workItem from="1484718515582" duration="458000" />
       <workItem from="1484893661184" duration="38000" />
-      <workItem from="1485407630919" duration="15558000" />
+      <workItem from="1485407630919" duration="15875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67742000" />
+    <option name="totallyTimeSpent" value="68059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="103" width="1153" height="723" extended-state="0" />
+    <frame x="60" y="23" width="1153" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1091,28 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4834">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/meowcatch/Background.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1135,6 +1113,28 @@
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Cat#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/FallingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meowcatch/StartingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="229" column="9" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

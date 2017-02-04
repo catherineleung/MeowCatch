@@ -216,9 +216,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
                     }
                 }
 
-                bg1.update();
-                bg2.update();
-
                 animate();
                 // calls paint method every 17 ms
                 repaint();
